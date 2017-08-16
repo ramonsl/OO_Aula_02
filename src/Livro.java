@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Livro {
 
     private String nome;
-    private String descricao;
+    public String descricao;
     private double valor;
     private int isbn;
     private Autor autor = new Autor();

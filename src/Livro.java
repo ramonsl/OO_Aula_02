@@ -5,11 +5,11 @@ import java.util.Scanner;
  */
 public class Livro {
 
-    public String nome;
-    public String descricao;
-    public double valor;
-    public int isbn;
-    public Autor autor = new Autor();
+    private String nome;
+    private String descricao;
+    private double valor;
+    private int isbn;
+    private Autor autor = new Autor();
 
 
     public void ler() {

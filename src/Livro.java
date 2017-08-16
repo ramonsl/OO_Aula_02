@@ -7,7 +7,7 @@ public class Livro {
 
     private String nome;
     public String descricao;
-    private double valor;
+    public double valor;
     private int isbn;
     private Autor autor = new Autor();
 

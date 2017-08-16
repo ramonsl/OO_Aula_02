@@ -6,13 +6,16 @@ import java.util.Scanner;
 public class Livro {
 
     private String nome;
-    public String descricao;
-    public double valor;
+    private String descricao;
+    private double valor;
     private int isbn;
     private Autor autor = new Autor();
 
 
     public void ler() {
+
+
+
         Scanner tc = new Scanner(System.in);
         System.out.println("Digite o nome do livro");
         this.nome = tc.next();///
